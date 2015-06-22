@@ -1,0 +1,34 @@
+
+<div class="row">
+    <div class="page-header"><h1>Create</h1></div>
+
+    <div class="alert alert-success" ng-show="showSuccess"> <strong>Success!</strong> You have created a new Person.</div>
+    <div class="alert alert-danger"ng-show="showFail"><span ng-bind-html="errorMsg"></span></div>
+
+    <form ng-submit="newPerson()">
+
+    <div class="input-group">
+        <span class="input-group-addon">Name</span>
+        <input type="text" class="form-control" placeholder="{{person.name}}" id="name" ng-model="person.name">
+    </div>
+</br>
+
+<div class="input-group">
+    <span class="input-group-addon">Surname</span>
+    <input type="text" class="form-control" placeholder="{{person.surname}}" id="surname" ng-model="person.surname">
+</div>
+</br> 
+
+<div class="input-group">
+    <span class="input-group-addon">Age</span>
+    <input type="text" class="form-control" placeholder="{{person.age}}" id="age" ng-model="person.age">
+</div>
+
+</br></br>    
+
+<p>
+    <input type="submit" id="submit" class="btn btn-primary" value="Submit" />
+    <a class="btn btn-default" href="#/person/list" role="button">Persons List &raquo;</a>
+</p>
+</form>
+</div>

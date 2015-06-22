@@ -1,0 +1,45 @@
+<!--  
+Author: 	Riccardo Noviello
+Date: 	 	24/06/2014
+Company: 	Convey Law Ltd
+-->
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="css/bootstrap-responsive.css" />
+<link rel="stylesheet" href="css/main.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Angular - Spring MVC template</title>
+
+</head>
+<body>
+	<div id="wrap">
+
+		<!-- Header -->
+		<div class="convey-navbar" ng-include src='"views/navbar.html"'></div>
+
+		<!--  Container -->
+		<div class="container" ng-view></div>		
+		
+		<div id="push"></div>
+	</div>
+
+	<!-- Footer -->
+	<div ng-include src='"views/footer.html"'></div>
+
+	<!-- Dependencies -->
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/angular.js"></script>
+	<script src="js/angular-route.min.js"></script>
+	<script src="js/restangular.js"></script>
+	<script src="js/underscore-min.js"></script>
+
+	<script src="js/app-controllers.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>

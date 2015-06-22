@@ -1,0 +1,20 @@
+<div class="row">
+	<div class="page-header"><h1>List of persons</h1></div>
+	
+	<table class="table table-striped table-bordered table-condensed">
+	<th>Name</th>
+	<th>Surname</th>
+	<th>Age</th>
+	<th>View</th>
+	
+    <tr ng-repeat="person in persons">
+	    <td>{{person.name}}</td>
+	    <td>{{person.surname}}</td>
+	    <td>{{person.age}}</td>
+	    <td><a ng-href="#/person/{{person.id}}">details</a></td>
+    </tr>
+  </table>
+  
+   <p><a class="btn btn-default" href="#/person/new" role="button">Add Person &raquo;</a></p>
+  
+</div>
