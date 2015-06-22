@@ -1,4 +1,4 @@
-package com.redmonkeysoftware.myapp.config;
+package com.riccardonoviello.myapp.config;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.redmonkeysoftware.myapp.web.rest.PingService;
+import com.riccardonoviello.myapp.web.rest.PingService;
 
 /**
  * 

@@ -1,4 +1,4 @@
-package com.redmonkeysoftware.myapp.web.model;
+package com.riccardonoviello.myapp.web.model;
 
 public class Person {
 	

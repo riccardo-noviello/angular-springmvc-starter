@@ -1,5 +1,5 @@
 
-package com.redmonkeysoftware.myapp.web.rest;
+package com.riccardonoviello.myapp.web.rest;
 
 import java.io.IOException;
 import java.io.StringWriter;

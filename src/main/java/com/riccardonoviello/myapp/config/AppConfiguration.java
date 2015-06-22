@@ -1,4 +1,4 @@
-package com.redmonkeysoftware.myapp.config;
+package com.riccardonoviello.myapp.config;
 
 import java.beans.PropertyVetoException;
 

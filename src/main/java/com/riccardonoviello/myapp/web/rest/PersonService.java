@@ -1,13 +1,15 @@
-package com.redmonkeysoftware.myapp.web.rest;
+package com.riccardonoviello.myapp.web.rest;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.redmonkeysoftware.myapp.web.model.Person;
+import com.riccardonoviello.myapp.web.model.Person;
+
 import java.io.IOException;
 import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.MediaType;
